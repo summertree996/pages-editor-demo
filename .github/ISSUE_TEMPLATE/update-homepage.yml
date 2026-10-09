@@ -1,0 +1,11 @@
+name: 更新主页文字
+description: 填写新内容并提交，公开主页将自动更新。
+title: 更新主页文字
+body:
+  - type: textarea
+    id: homepage-text
+    attributes:
+      label: 主页文字
+      placeholder: 输入希望展示在主页上的文字。
+    validations:
+      required: true
